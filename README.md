@@ -9,5 +9,5 @@ $ git clone https://github.com/DbDibyendu/MyPortfolio-v2.git
 $ npm i
 
 # Run the app
-$ npm run dev
+$ npm start
 ```
