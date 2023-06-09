@@ -1,7 +1,8 @@
 import { m, LazyMotion, domAnimation } from "framer-motion";
 
 const HeroText = () => {
-  const name = "db ?";
+  const name = "I am Dibyendu";
+  const welcome ="Hi there !"
 
   return (
     <div
@@ -13,20 +14,33 @@ const HeroText = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.6, type: "spring" }}
-          className="text-center flex justify-center items-center flex-col opacity-100 text-7xl sm:text-9xl cursor-default"
+          className="text-center flex justify-center items-center flex-col opacity-500 text-7xl sm:text-8xl cursor-default"
           style={{ fontFamily: "SuperMario" }}
         >
           <m.span
             initial={{ x: -100 }}
             whileInView={{ x: 0 }}
-            transition={{ duration: 0.6, type: "spring" }}
+            transition={{ duration: 4}}
           >
-            Who's{" "}
+            {welcome.split("").map((char, index) => {
+              if (char === " ") {
+                return " ";
+              }
+              return (
+                <span
+                  key={index}
+                  className="text-greyscale-50 bounce"
+                  style={{ fontSize: "1em" }}
+                >
+                  {char}
+                </span>
+              );
+            })}
           </m.span>
           <m.div
             initial={{ x: 100 }}
             whileInView={{ x: 0 }}
-            transition={{ duration: 0.6, type: "spring" }}
+            transition={{ duration: 6, type: "spring" }}
           >
             {name.split("").map((char, index) => {
               if (char === " ") {
@@ -35,8 +49,8 @@ const HeroText = () => {
               return (
                 <span
                   key={index}
-                  className="text-primary-400 bounce"
-                  style={{ fontSize: "1.2em" }}
+                  className="text-primary-100 flash"
+                  style={{ fontSize: "0.7em" }}
                 >
                   {char}
                 </span>
