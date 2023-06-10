@@ -100,8 +100,8 @@ const SectionWrapper = (Component, idName) =>
         initial='hidden'
         whileInView='show'
         viewport={{ once: true, amount: 0.25 }}
-      // className={`${styles.padding} max-w-7xl mx-auto relative z-0 w-[500%]`}
-      // style={{ marginLeft: "-20%" , backgroundColor: "#0a192f", paddingLeft:0}}
+        // className={`${styles.padding} max-w-7xl mx-auto relative z-0 w-[500%]`}
+        // style={{ marginLeft: "-20%" , backgroundColor: "#0a192f", paddingLeft:0}}
       >
         <span className='hash-span' id={idName}>
           &nbsp;
@@ -111,9 +111,7 @@ const SectionWrapper = (Component, idName) =>
     )
   };
 
-
 const ProjectCard = ({ index, name, description }) => {
-
   return (
     <motion.div
       variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
@@ -143,7 +141,7 @@ const Works = () => {
   return (
     <>
       <div className="text-grayscale-50 p-6 noselect">
-        <div className=" md:w-[100%] h-full flex flex-col items-center mt-20">
+        <div className="w-full md:w-[70%] h-full flex flex-col items-center mt-20">
           {projects.map((project, index) => (
             <ProjectCard
               key={`project-${index}`}

@@ -104,6 +104,7 @@ export const navLinks = [
   },
 ];
 
+
 const projects = [
   {
     name: "SDE Intern | Disney + Hotstar",
@@ -136,6 +137,7 @@ const projects = [
     ]
   },
 ];
+
 
 const memoji = {
   image: [avatar],
