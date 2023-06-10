@@ -104,24 +104,34 @@ export const navLinks = [
 
 const projects = [
   {
-    name: "Arasartara's Gallery",
-    description: 'A memory game with an art theme implemented with React. Test your memory skills and enjoy beautiful artwork as you match pairs of cards in this engaging game.',
+    name: "SDE Intern | Disney + Hotstar",
+    description: [
+      "Developed an Admin portal using React JS that enabled users of a community to access a range of features.",
+      "Incorporated gamification features in the Admin Dashboard, such as rewards, leaderboards, badges, and challenges to incentivize engagement and participation within the community or group.",
+      "Designed the UI for the admin portal using Figma, ensuring it was user-friendly and met the company’s requirements.",
+      "Implemented necessary APIs to save data in the backend, using Node.js and AWS to create an efficient system.",
+      "Presented the admin portal to the Senior management team, demonstrating its features and capabilities and receiving positive feedback on its design and functionality.",
+    ]
   },
   {
-    name: 'Pawsitive',
-    description: 'Explore a user-friendly Figma prototype for an adoption and sterilization awareness website. Experience the sleek design and contribute to a noble cause.',
+    name: 'SDE Intern | InstaSell',
+    description: [
+      "Developed multiple Android App features using React Native with complete Ownership.",
+      "Collaborated with a team of four developers and designers to deliver features on time and within budget.",
+      "Detected and resolved multiple Android app and website bugs with an 80 % accuracy rate.",
+      "Developed multiple APIs utilizing NodeJs in Backend, improving mobile and email notifications.",
+      "Created the Landing page of the company using React js and Next js and various libraries such as Tailwind CSS.",
+    ]
   },
   {
-    name: 'Basic Calculator',
-    description: 'A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.',
-  },
-  {
-    name: "Arasartara's Gallery",
-    description: 'A memory game with an art theme implemented with React. Test your memory skills and enjoy beautiful artwork as you match pairs of cards in this engaging game.',
-  },
-  {
-    name: "Arasartara's Gallery",
-    description: 'A memory game with an art theme implemented with React. Test your memory skills and enjoy beautiful artwork as you match pairs of cards in this engaging game.',
+    name: 'Backend Intern | Fintract Global',
+    description: [
+      "Developed a trading platform Finaytics that allows investors and traders to visualize stock, crypto and prediction data.",
+      "Delivered the RESTful APIs using the Django-rest-framework for the interactive trading platform.",
+      "Collaborated with AWS developer and successfully deployed the rest APIs on AWS Elastic Compute Cloud instance.",
+      "Added the basic authentication for Security on all the APIs, which would be accessed only by using admin credentials.",
+      "Documented all the APIs along with the MongoDB database configuration and .env file configuration (Security Keys).",
+    ]
   },
 ];
 
