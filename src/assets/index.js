@@ -20,8 +20,8 @@ import neoIcon from './tech/neo.png';
 import raspIcon from './tech/raspi.png';
 import close from './close.svg';
 import menu from './menu.svg';
-
-
+import docker from './tech/docker.png'
+import linux from './tech/linux.png'
 // Avatar
 import avatar from './avatar/avatar-min.jpg';
 
@@ -44,6 +44,7 @@ export {
   viteIcon,
   neoIcon,
   raspIcon,
+  docker,
   avatar,
-  // bl33hIcon,
+  linux
 };

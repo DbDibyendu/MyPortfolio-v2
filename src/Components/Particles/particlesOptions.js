@@ -38,7 +38,7 @@ export const heroOptions = {
       color: "#ffffff",
       distance: 150,
       enable: true,
-      opacity: 0.1,
+      opacity: 0.3,
       width: 1,
     },
     collisions: {

@@ -32,6 +32,8 @@ import {
   neoIcon,
   figmaIcon,
   avatar,
+  linux,
+  docker,
 } from '../assets';
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
@@ -211,6 +213,17 @@ const skills = [
       'I have a strong command of PostgreSQL, encompassing a wide range of skills such as database normalization, triggers, front-end connectivity, and data analysis using software like Power BI.',
   },
   {
+    id: 'docker',
+    title: 'docker',
+    icon: docker,
+  },
+  {
+    id: 'linux',
+    title: 'linux',
+    icon: linux,
+  },
+
+  {
     id: 'vite',
     title: 'Vite',
     icon: viteIcon,
@@ -230,13 +243,6 @@ const skills = [
     icon: nodeIcon,
     description:
       'When it comes to building web applications, I prefer using Node as my runtime environment over Yarn. I have expertise in leveraging Node.js to develop powerful and scalable web applications.',
-  },
-  {
-    id: 'neo',
-    title: 'Neo4j',
-    icon: neoIcon,
-    description:
-      'I am knowledgeable in Neo4j, the graph database management system. I have expertise in utilizing GraphOS to build robust recommendation systems, leveraging the strength of graph-based data modeling.',
   },
   {
     id: 'raspi',

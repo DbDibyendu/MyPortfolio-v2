@@ -2,8 +2,8 @@ import { m, LazyMotion, domAnimation } from "framer-motion";
 
 const HeroText = () => {
   const name = "I am DB";
-  const welcome ="Holaa !"
-
+  const welcome = "Holaa !"
+  const msg="Click / Hover over screen for satisfying experience :)"
   return (
     <div
       className="noselect w-fit h-fit text-grayscale-50 absolute z-10 flex flex-col justify-center items-center rounded-[50%]"
@@ -20,7 +20,7 @@ const HeroText = () => {
           <m.span
             initial={{ x: -100 }}
             whileInView={{ x: 0 }}
-            transition={{ duration: 2}}
+            transition={{ duration: 2 }}
           >
             {welcome.split("").map((char, index) => {
               if (char === " ") {
@@ -58,6 +58,20 @@ const HeroText = () => {
             })}
           </m.div>
         </m.h1>
+        <m.p
+          initial={{ opacity: 1 }}
+          whileInView={{ opacity: 1 }}
+          transition={{
+            duration: 0.5,
+            type: "spring",
+            stiffness: 100,
+            damping: 20,
+          }}
+          style={{ fontFamily: "Comic Sans MS" }}
+          className="text-grayscale-50 p-6 text-center flex flex-col gap-6 flash"
+        >
+          {msg}
+        </m.p>
       </LazyMotion>
     </div>
   );
