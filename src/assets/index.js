@@ -1,5 +1,5 @@
 // Logo
-// import bl33hIcon from './logo/bl33hIcon.png';
+import vault from './tech/vault.png';
 
 // Technologies
 import htmlIcon from './tech/html.png';
@@ -46,5 +46,6 @@ export {
   raspIcon,
   docker,
   avatar,
-  linux
+  linux,
+  vault
 };

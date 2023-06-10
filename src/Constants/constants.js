@@ -74,13 +74,13 @@ const icons = {
 const introduction = {
   text: [
 
-    "Hello there, Hope you liked the animations! :)",
+    "Hello there, Hope you liked the animations :)",
 
-    "My name is Dibyendu Biswas, I'm a 2023 graduate from IIT Kharagpur and I did my btech course in ECE.",
+    "My name is Dibyendu Biswas, I graduated in 2023 from IIT Kharagpur with a degree in ECE ",
 
     "Passionate about exploring diverse fields and keeping my options open for the future. Currently exploring the exciting world of software engineering while nurturing a keen interest in trading and finance. ",
 
-    "My hobbies include fitness, weightlifting, rope skipping, trekking, wall painting, rangoli, sketching, chess, playing the tabla, clap box, solving Rubik's Cube, and much more !!",
+    "My hobbies include fitness, weightlifting, rope skipping, trekking, wall painting, rangoli, sketching, chess, playing the tabla, clap box, solving Rubik's Cube and much more !!",
 
   ],
 };

@@ -112,14 +112,6 @@ const SectionWrapper = (Component, idName) =>
   };
 
 
-const paragraphs = [
-  "Developed an Admin portal using React JS that enabled users of a community to access a range of features.",
-  "Incorporated gamification features in the Admin Dashboard, such as rewards, leaderboards, badges, and challenges to incentivize engagement and participation within the community or group.",
-  "Designed the UI for the admin portal using Figma, ensuring it was user-friendly and met the company’s requirements.",
-  "Implemented necessary APIs to save data in the backend, using Node.js and AWS to create an efficient system.",
-  "Presented the admin portal to the Senior management team, demonstrating its features and capabilities and receiving positive feedback on its design and functionality.",
-];
-
 const ProjectCard = ({ index, name, description }) => {
 
   return (

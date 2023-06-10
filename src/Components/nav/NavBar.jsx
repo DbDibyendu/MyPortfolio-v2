@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { styles } from '../../styles.js';
 import { navLinks } from "../../Constants/constants";
 import { menu, close } from "../../assets";
+import { vault } from "../../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -24,6 +25,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
+          <img src={vault} alt="DB" className="w-18 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
           </p>
         </Link>

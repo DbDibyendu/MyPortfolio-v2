@@ -1,7 +1,7 @@
 import { m, LazyMotion, domAnimation } from "framer-motion";
 
 const HeroText = () => {
-  const name = "I am DB";
+  const name = "Welcome to DB's Vault";
   const welcome = "Holaa !"
   const msg="Click / Hover over screen for satisfying experience :)"
   return (
@@ -43,14 +43,12 @@ const HeroText = () => {
             transition={{ duration: 3, type: "spring" }}
           >
             {name.split("").map((char, index) => {
-              if (char === " ") {
-                return " ";
-              }
+              
               return (
                 <span
                   key={index}
                   className="text-primary-100 flash"
-                  style={{ fontSize: "0.7em" }}
+                  style={{ fontSize: "0.4em" }}
                 >
                   {char}
                 </span>
