@@ -72,13 +72,15 @@ const icons = {
 
 const introduction = {
   text: [
-    "Hello there, I'm so happy you are here! (:",
 
-    "My name is Sara, I'm 20 and a third year computer science student based in Guatemala. I have a strong passion for the technologies related to the data base construction and UX.",
+    "Hello there, Hope you liked the animations! :)",
 
-    "Outside of my regular activities, I'm into drawing whenever I have some free time. I'm also a huge dog lover and enjoy playing chess for fun.",
+    "My name is Dibyendu Biswas, I'm a 2023 graduate from IIT Kharagpur and I did my btech course in ECE.",
 
-    "I'm continuously thrilled to partner with individuals and teams who wholeheartedly embrace my fervor for crafting extraordinary experiences. Your visit to my portfolio is deeply appreciated !",
+    "Passionate about exploring diverse fields and keeping my options open for the future. Currently exploring the exciting world of software engineering while nurturing a keen interest in trading and finance. ",
+
+    "A fitness enthusiast, constantly seeking new challenges and opportunities for personal growth. Open to new experiences and eager to expand my horizons. Let's connect and explore together!",
+
   ],
 };
 

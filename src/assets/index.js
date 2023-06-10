@@ -1,5 +1,5 @@
 // Logo
-import bl33hIcon from './logo/bl33hIcon.png';
+// import bl33hIcon from './logo/bl33hIcon.png';
 
 // Technologies
 import htmlIcon from './tech/html.png';
@@ -27,7 +27,7 @@ import calculator from './projects/calculator.jpg';
 import memoryGame from './projects/memory.jpg';
 
 // Avatar
-import avatar from './avatar/avatar.png';
+import avatar from './avatar/avatar-min.jpg';
 
 export {
   menu,
@@ -52,5 +52,5 @@ export {
   calculator,
   memoryGame,
   avatar,
-  bl33hIcon,
+  // bl33hIcon,
 };

@@ -1,11 +1,3 @@
-/*
-   
-   FileName: ParticlesComponent.jsx
-   Version: I
-   Creation: 02/06/2023
-   Last modification: 02/06/2023
-*/
-
 import { useCallback } from "react";
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";

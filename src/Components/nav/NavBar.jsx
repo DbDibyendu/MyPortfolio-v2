@@ -1,16 +1,8 @@
-/*
-   
-   FileName: NavBar.jsx
-   Version: I
-   Creation: 02/06/2023
-   Last modification: 02/06/2023
-*/
-
 import React, {useState } from "react";
 import { Link } from "react-router-dom";
 import {styles} from '../../styles.js';
 import { navLinks } from "../../Constants/constants";
-import { bl33hIcon, menu, close } from "../../assets";
+import { menu, close } from "../../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -32,7 +24,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={bl33hIcon} alt={bl33hIcon} className="w-18 h-9 object-contain" />
+          {/* <img src={bl33hIcon} alt={bl33hIcon} className="w-18 h-9 object-contain" /> */}
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
           </p>
         </Link>

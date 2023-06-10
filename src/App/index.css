@@ -16,7 +16,8 @@
 }
 
 body {
-  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKE5rFG5eQj4vnYlGVwpYr31RXYrrLvNMjDWxgm3KyRbFVhvjfUWxnpyHRcRE05I0hvLTvlMlrlyU&usqp=CAU&ec=48665699");
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUHot-j6YzUYj0OjoF5F8iK-l4vsA3roXF8J_P9v17ES5av--I1MqHRccy58G-Bs4MDEb0SSZ1SHk&usqp=CAU&ec=48665699");
+  background-color: #292D44;
   position: relative;
   overflow-x: hidden;
   -webkit-overflow-x: hidden;
