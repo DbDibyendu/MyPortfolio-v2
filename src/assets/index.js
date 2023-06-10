@@ -1,5 +1,5 @@
 // Logo
-import vault from './tech/vault.png';
+import vault from './tech/vault2.png';
 
 // Technologies
 import htmlIcon from './tech/html.png';
