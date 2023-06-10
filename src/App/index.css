@@ -16,8 +16,7 @@
 }
 
 body {
-  background: url("https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/631a5d4631d4c55a475f3e34_noise-50.png");
-  background-color: #546b63;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKE5rFG5eQj4vnYlGVwpYr31RXYrrLvNMjDWxgm3KyRbFVhvjfUWxnpyHRcRE05I0hvLTvlMlrlyU&usqp=CAU&ec=48665699");
   position: relative;
   overflow-x: hidden;
   -webkit-overflow-x: hidden;
@@ -39,17 +38,6 @@ body {
   border-radius: 0 0 0 100%;
 }
 
-#repulse-div {
-  -webkit-appearance: none;
-  appearance: none;
-  -webkit-filter: drop-shadow(0 0 5rem #f8f8f5);
-  filter: drop-shadow(0 0 5rem #6c7a1c);
-}
-
-#repulse-div > h1 {
-  -webkit-filter: drop-shadow(0 0 5rem #f8f8f5);
-  filter: drop-shadow(0 0 5rem #6c7a1c);
-}
 
 #journey-scroll::-webkit-scrollbar {
   display: none;
@@ -116,7 +104,7 @@ polyline {
 .bounce:hover {
   display: inline-block;
   animation: rubberband 0.8s ease-out;
-  color: #ca6721;
+  color: #E1C16E;
 }
 
 @keyframes rubberband {

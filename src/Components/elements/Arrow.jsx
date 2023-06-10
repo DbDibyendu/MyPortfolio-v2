@@ -1,11 +1,3 @@
-/*
-   
-   FileName: Arrow.jsx
-   Version: I
-   Creation: 02/06/2023
-   Last modification: 02/06/2023
-*/
-
 const Arrow = () => {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">

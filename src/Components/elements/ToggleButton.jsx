@@ -1,11 +1,3 @@
-/*
-   
-   FileName: ToggleButton.jsx
-   Version: I
-   Creation: 02/06/2023
-   Last modification: 02/06/2023
-*/
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { icons } from "../../Constants/constants";
 

@@ -1,11 +1,3 @@
-/*
-   
-   FileName: ImageSlider.jsx
-   Version: I
-   Creation: 02/06/2023
-   Last modification: 02/06/2023
-*/
-
 import { useEffect, useState, useRef } from "react";
 import { m, LazyMotion, domAnimation } from "framer-motion";
 

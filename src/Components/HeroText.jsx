@@ -20,7 +20,7 @@ const HeroText = () => {
           <m.span
             initial={{ x: -100 }}
             whileInView={{ x: 0 }}
-            transition={{ duration: 4}}
+            transition={{ duration: 2}}
           >
             {welcome.split("").map((char, index) => {
               if (char === " ") {
@@ -38,9 +38,9 @@ const HeroText = () => {
             })}
           </m.span>
           <m.div
-            initial={{ x: 100 }}
+            initial={{ x: 50 }}
             whileInView={{ x: 0 }}
-            transition={{ duration: 6, type: "spring" }}
+            transition={{ duration: 3, type: "spring" }}
           >
             {name.split("").map((char, index) => {
               if (char === " ") {

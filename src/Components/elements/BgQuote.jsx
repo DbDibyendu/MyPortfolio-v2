@@ -1,11 +1,3 @@
-/*
-   
-   FileName: BgQuote.jsx
-   Version: I
-   Creation: 02/06/2023
-   Last modification: 02/06/2023
-*/
-
 import { m, LazyMotion, domAnimation } from "framer-motion";
 import Arrow from "./Arrow";
 
