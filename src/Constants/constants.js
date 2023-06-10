@@ -79,7 +79,7 @@ const introduction = {
 
     "Passionate about exploring diverse fields and keeping my options open for the future. Currently exploring the exciting world of software engineering while nurturing a keen interest in trading and finance. ",
 
-    "A fitness enthusiast, constantly seeking new challenges and opportunities for personal growth. Open to new experiences and eager to expand my horizons. Let's connect and explore together!",
+    "My hobbies include fitness, weightlifting, rope skipping, trekking, wall painting, rangoli, sketching, chess, playing the tabla, clap box, solving Rubik's Cube, and much more !!",
 
   ],
 };

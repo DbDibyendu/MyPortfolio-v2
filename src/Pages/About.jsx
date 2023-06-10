@@ -25,7 +25,7 @@ const About = () => {
                 style={{ fontFamily: "Poppins, sans-serif" }}
                 className="text-grayscale-50 p-6 text-center flex flex-col gap-6"
               >
-                <span className="text-primary-400">{introduction.text[0]}</span>
+                <span className="text-primary-400 bounce">{introduction.text[0]}</span>
                 <span>{introduction.text[1]}</span>
                 <span>{introduction.text[2]}</span>
                 <span>{introduction.text[3]}</span>
