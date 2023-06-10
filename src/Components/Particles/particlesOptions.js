@@ -1,13 +1,14 @@
 export const heroOptions = {
   autoPlay: true,
 
-  // fullScreen: {
-  //   enable: false,
-  //   zIndex: 0,
-  // },
+  fullScreen: {
+    enable: false,
+    zIndex: 0,
+  },
+
   fpsLimit: 120,
   interactivity: {
-    // detectsOn: '#hero',
+    detectsOn: '#hero',
     events: {
       onClick: {
         enable: true,
@@ -37,7 +38,7 @@ export const heroOptions = {
       color: "#ffffff",
       distance: 150,
       enable: true,
-      opacity: 0.5,
+      opacity: 0.1,
       width: 1,
     },
     collisions: {
