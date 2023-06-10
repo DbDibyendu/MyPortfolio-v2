@@ -100,8 +100,8 @@ const SectionWrapper = (Component, idName) =>
         initial='hidden'
         whileInView='show'
         viewport={{ once: true, amount: 0.25 }}
-        className={`${styles.padding} max-w-7xl mx-auto relative z-0 my-[-17%] w-[500%]`}
-        style={{ marginLeft: "-20%" }}
+        // className={`${styles.padding} max-w-7xl mx-auto relative z-0 w-[500%]`}
+        // style={{ marginLeft: "-20%" , backgroundColor: "#0a192f", paddingLeft:0}}
       >
         <span className='hash-span' id={idName}>
           &nbsp;
@@ -122,12 +122,10 @@ const ProjectCard = ({ index, name, description }) => {
           scale: 1,
           speed: 450
         }}
-        className='text-grayscale-50 p-5 rounded-lg sm:w-[280px] w-full'
-        style={{ marginTop: '-120%' }}
       >
-        <div className="mt-3">
-          <h3 className="text-white font-bold text-[20px]">{name}</h3>
-          <p className="mt-2 text-secondary text-[14px] leading-[18px]">{description}</p>
+        <div className="mt-0 mb-10">
+          <div className="text-white font-bold font text-[20px]">{name}</div>
+          <p className="mt-2 text-white text-[14px] leading-[18px]">{description}</p>
         </div>
       </Tilt>
     </motion.div>
@@ -137,10 +135,8 @@ const ProjectCard = ({ index, name, description }) => {
 const Works = () => {
   return (
     <>
-      <div className="w-full flex">
-      </div>
-      <div className="w-full flex flex-col sm:flex-row">
-        <div className="w-full md:w-[50%] md:h-full flex items-center mt-20">
+      <div className="text-grayscale-50 p-6 noselect">
+        <div className="w-full md:w-[70%] h-full flex flex-col items-center mt-20">
           {projects.map((project, index) => (
             <ProjectCard
               key={`project-${index}`}
