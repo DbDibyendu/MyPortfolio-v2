@@ -3,26 +3,40 @@ import React from "react";
 import { m } from "framer-motion";
 
 const HeroScroller = () => {
+  const transitionValues = {
+    duration: 0.8,
+    repeat: Infinity,
+    repeatType: "reverse"
+  };
+
+  const ballStyle = {
+    display: "block",
+    width: "5rem",
+    height: "5rem",
+    backgroundColor: "white",
+    borderRadius: "5rem",
+    marginRight: "auto",
+    marginLeft: "auto"
+  };
+
   return (
     <div
       id="scroller"
-      className="absolute xs:bottom-10 bottom-12 flex justify-center items-center"
+      className="absolute xs:bottom-30 bottom-30 flex justify-center items-center"
     >
-      <a href="#about">
-        {/* <div className="w-[35-px] h-[64px] rounded-3xl border-4 border-primary-400 flex justify-center items-start p-2"> */}
-          <m.div
-            animate={{
-              y: [0, 140, 0],
-            }}
-            transition={{
-              duration: 2,
-              repeat: Infinity,
-              repeatType: "loop",
-            }}
-            className="w-12 h-12 rounded-full bg-primary-400 mb-1"
-          />
-        {/* </div> */}
-      </a>
+      <m.span
+        style={ballStyle}
+        transition={{
+          y: transitionValues,
+          width: transitionValues,
+          height: transitionValues
+        }}
+        animate={{
+          y: ["2rem", "8rem", "10rem"],
+          width: ["5rem", "5rem", "6rem"],
+          height: ["5rem", "5rem", "4rem"]
+        }}
+      />
     </div>
   );
 };
