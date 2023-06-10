@@ -2,7 +2,7 @@
 import React from "react";
 import { m } from "framer-motion";
 
-const HeroScroller = () => {
+const BounceBall = () => {
   const transitionValues = {
     duration: 0.8,
     repeat: Infinity,
@@ -41,4 +41,4 @@ const HeroScroller = () => {
   );
 };
 
-export default HeroScroller;
+export default BounceBall;
