@@ -129,10 +129,10 @@ const ProjectCard = ({ index, name, description }) => {
           <div className="text-white font-bold font text-[20px]">{name}</div>
           {description.map((item, index) => {
             return (
-              <p key={index} className="mt-2 text-white text-[14px] leading-[18px]">{index+1}. {item}</p>
+              <p key={index} className="mt-2 text-white text-[14px] leading-[18px]">{index + 1}. {item}</p>
             )
           })}
-          {/* <p className="mt-2 text-white text-[14px] leading-[18px]">{description}</p> */}
+
         </div>
       </Tilt>
     </motion.div>
@@ -151,7 +151,14 @@ const Works = () => {
               {...project}
             />
           ))}
+
         </div>
+        <p>Find my Resume
+          <a href="https://www.linkedin.com/in/dibi07/overlay/1635525988056/single-media-viewer/?profileId=ACoAAC1n918Bh0g6x_N1ypvM2WKcOcPEXBl71OM"
+            target="_blank"
+            className="text-primary-400 hover:text-grayscale-100 transition-all duration-75 flash"
+          > here</a>
+        </p>
       </div>
     </>
   );
