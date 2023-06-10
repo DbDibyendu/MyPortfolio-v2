@@ -141,7 +141,7 @@ const Works = () => {
   return (
     <>
       <div className="text-grayscale-50 p-6 noselect">
-        <div className="w-full md:w-[70%] h-full flex flex-col items-center mt-20">
+        <div className="w-full md:w-[100%] h-full flex flex-col items-center mt-20">
           {projects.map((project, index) => (
             <ProjectCard
               key={`project-${index}`}

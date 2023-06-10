@@ -22,10 +22,10 @@ const About = () => {
                   stiffness: 100,
                   damping: 20,
                 }}
-                style={{ fontFamily: "Poppins, sans-serif" }}
+                style={{ fontFamily: "Comic Sans MS" }}
                 className="text-grayscale-50 p-6 text-center flex flex-col gap-6"
               >
-                <span className="text-primary-400 bounce">{introduction.text[0]}</span>
+                <span className="text-primary-400 bounce text-3xl">{introduction.text[0]}</span>
                 <span>{introduction.text[1]}</span>
                 <span>{introduction.text[2]}</span>
                 <span>{introduction.text[3]}</span>
