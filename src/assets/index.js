@@ -21,10 +21,6 @@ import raspIcon from './tech/raspi.png';
 import close from './close.svg';
 import menu from './menu.svg';
 
-// Projects
-import pawsitivePrototype from './projects/pawsitive.jpeg';
-import calculator from './projects/calculator.jpg';
-import memoryGame from './projects/memory.jpg';
 
 // Avatar
 import avatar from './avatar/avatar-min.jpg';
@@ -48,9 +44,6 @@ export {
   viteIcon,
   neoIcon,
   raspIcon,
-  pawsitivePrototype,
-  calculator,
-  memoryGame,
   avatar,
   // bl33hIcon,
 };

@@ -4,7 +4,7 @@ import Logos from "../Components/Logos";
 
 const Skills = () => {
   return (
-    <div id="skills" className="w-full overflow-hidden-web flex justify-center">
+    <div id="skills" className="w-full flex justify-center">
       <div className="w-full min-h-[100px] flex flex-col xl:w-[70%]">
         <div className="w-full">
           <SectionTitle title="SKILLS" subtitle="WHAT I DO" />

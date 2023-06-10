@@ -49,18 +49,6 @@ body {
   scrollbar-width: none;
 }
 
-.arrowpath,
-polyline {
-  fill: none;
-  stroke: #515152;
-  vector-effect: non-scaling-stroke;
-  stroke-width: 2;
-}
-
-.arrowpath {
-  stroke-dasharray: 11, 5;
-}
-
 .noselect {
   -webkit-touch-callout: none;
   -webkit-user-select: none;

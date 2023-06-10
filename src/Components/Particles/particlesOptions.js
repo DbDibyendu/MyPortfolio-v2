@@ -21,7 +21,7 @@ export const heroOptions = {
     },
     modes: {
       push: {
-        quantity: 4,
+        quantity: 6,
       },
       repulse: {
         distance: 200,
@@ -41,7 +41,7 @@ export const heroOptions = {
       width: 1,
     },
     collisions: {
-      enable: true,
+      enable: false,
     },
     move: {
       direction: "none",
