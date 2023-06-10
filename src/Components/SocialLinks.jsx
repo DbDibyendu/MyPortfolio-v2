@@ -22,6 +22,13 @@ const SocialLinks = () => {
           icon={icons.faLinkedin}
         />
       </a>
+      {/* https://www.linkedin.com/in/dibi07/overlay/1635525988056/single-media-viewer/?profileId=ACoAAC1n918Bh0g6x_N1ypvM2WKcOcPEXBl71OM */}
+      <a href="https://www.linkedin.com/in/dibi07/overlay/1635525988056/single-media-viewer/?profileId=ACoAAC1n918Bh0g6x_N1ypvM2WKcOcPEXBl71OM" target="_blank">
+        <FontAwesomeIcon
+          className="text-3xl text-grayscale-50 hover:text-primary-400 hover:scale-[1.1] transition-all duration-75"
+          icon={icons.faLinkedin}
+        />
+      </a>
     </div>
   );
 };
