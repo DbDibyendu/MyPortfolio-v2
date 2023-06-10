@@ -1,13 +1,13 @@
 export const heroOptions = {
   autoPlay: true,
 
-  fullScreen: {
-    enable: false,
-    zIndex: 0,
-  },
+  // fullScreen: {
+  //   enable: false,
+  //   zIndex: 0,
+  // },
   fpsLimit: 120,
   interactivity: {
-    detectsOn: '#hero',
+    // detectsOn: '#hero',
     events: {
       onClick: {
         enable: true,
