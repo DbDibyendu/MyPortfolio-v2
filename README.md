@@ -11,3 +11,6 @@ $ npm i
 # Run the app
 $ npm start
 ```
+
+### Check out the deployed website :)
+https://dbdibyendu.netlify.app/
